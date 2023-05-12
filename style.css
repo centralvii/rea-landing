@@ -1,0 +1,855 @@
+*::before,::after {
+    box-sizing: border-box;
+}
+a, p, h1 {
+    font-family: montserrat;
+}
+main {
+    background: #FFFFFF;
+}
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+header {
+    padding: 20px;
+    background: #111111;
+   /* position: static; */
+}
+.span-1 {
+    font-weight: 900;
+    color: #04020eb6;
+}
+.span-2 {
+    font-weight: 900;
+    color: #6357FF;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.header-content {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.header_img {
+    width: 150px;
+    margin-left: 10px;
+}
+.header-nav_text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ABAAB0;
+    margin-right: 32px;
+}
+.main-content {
+    max-width: 1240px;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.container-hello {
+    background: #ffffff;
+    height: 800px;
+    margin-top: 0;
+}
+.container-hello h1 {
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    max-width: 550px;
+    color: #000000;
+}
+.container-hello a {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    max-width: 530px;
+    color: #04020e88;
+}
+.container-hello .button {
+    width: 183px;
+    height: 48px;
+    align-items: center;
+    text-align: center;
+    background: #6357FF;
+    color: white;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-bottom: 55px;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: 2px #6357FF solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container-hello .button-programma {
+    width: 183px;
+    height: 48px;
+    margin-left: 15px;
+    align-items: center;
+    text-align: center;
+    background: #6257ff00;
+    color: black;
+    border-radius: 4px;
+    margin-top: 48px;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: 2px solid #6357FF;
+}
+.button:hover {
+    background: none;
+    border: 2px solid #6357FF;
+    color: black;
+}
+.button-programma:hover {
+    border: 2px solid #3f38a2;
+    box-shadow: 0px 0px 50px -20px;
+}
+.hello-page {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.hello-page_img {
+    margin-top: 70px;
+}
+
+
+.text-hello_Content {
+    display: flex;
+}
+.dot {
+    content: "";
+    flex: 0 0 6px;
+    height: 6px;
+    width: 0px;
+    background-color: #000;
+    border-radius: 50%;
+    margin-right: 15px;
+    margin-top: 9px;
+
+}
+.text-hello_Content.src-Landings-landing-ui-kit-components-PresentationDescription--black--mV0_C .dot {
+    background-color: #fff;
+}
+.about_text {
+    position: relative;
+    margin-bottom: 15px;
+    line-height: 24px;
+}
+.about_text p {
+    margin: 0;
+    max-width: 650px;
+}
+
+
+
+.container-about {
+    background: #111111;
+}
+
+.container-about h1 {
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    max-width: 1000px;
+    color: white;
+}
+.container-about p {
+    color: white;
+    max-width: 600px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.container-about .about_text {
+    justify-content: space-between;
+}
+.container-about .about_pay {
+    margin-top: -10px;
+}
+.about_pay h1 {
+    font-size: 25px;
+}
+.about_pay p {
+    max-width: 350px;
+}
+.about2 {
+    margin-top: 50px;
+}
+.about2 h1 {
+    max-width: 1100px;
+}
+
+.circle {
+    padding: 10px 18px;
+    background-color: #6357FF;
+    border-radius: 45px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container-about .about_block .about-flex {
+    align-items: center;
+}
+.container-about .about_block {
+    max-width: 460px;
+}
+.about_block .about-flex p {
+    margin-left: 15px;
+    max-width: 250px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.about_block p {
+    font-weight: 500;
+    max-width: 250px;
+    align-self: flex-end;
+}
+.about-content .first-block {
+    justify-content: space-between;
+}
+.about-content .second {
+    margin-top: 15px;
+}
+.container-about {
+    padding-bottom: 40px;
+}
+
+
+
+.praktika-content h2 {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 56px;
+}
+.praktika-content .flex-row {
+    justify-content: space-between;
+}
+.praktika-img {
+    margin-top: -30px;
+}
+.praktika-content .about_text {
+    max-width: 100%;
+    font-weight: 700;
+}
+.third p {
+    font-size: 22px;
+    max-width: 680px;
+}
+.teaching h1 {
+    font-size: 35px;
+    max-width: 600px;
+}
+.teaching img {
+    width: 500px;
+    margin-top: -105px;
+}
+.teaching {
+    justify-content: space-between;
+}
+.teaching p {
+    font-size: 22px;
+}
+
+.about-content .document {
+    justify-content: space-between;
+}
+
+.text-box_Doc {
+    margin-top: -30px;
+}
+.container-teacher h1 {
+    max-width: 1000px;
+}
+
+.teacher-about_text {
+    max-width: 550px;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+.teacher-name_text {
+    font-weight: 700;
+
+}
+.teacher-content {
+    justify-content: space-around;
+}
+.teacher-box {
+    background: rgba(231, 231, 231, 0.467);
+    padding: 15px 25px;
+    border-radius: 15px;
+    transition: 0.5s;
+    min-height: 1500px;
+    max-width: 450px;
+}
+.teacher-box:nth-child(2) {
+    margin-left: 20px;
+}
+.teacher-box:nth-child(3) {
+    margin-left: 20px;
+}
+.teacher-box_text {
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.teacher-img {
+    height: 200px;
+}
+.teacher-img_box {
+    display: flex;
+    justify-content: center;
+}
+.teacher-box:hover {
+    transition: 0.5s;
+}
+
+.container-teacher {
+    margin-bottom: 255px;
+}
+
+.slider {
+    max-width: 100%;
+    height: auto;
+    background: none;
+}
+
+.slick-prev .slick-next {
+    background-color: #000;
+}
+
+.slick-track {
+    width: 2000px;
+}
+
+.slick-slide-control01 {
+    display: none;
+}
+.slick-prev {
+    margin-left: -20px;
+}
+
+.container-about .about_text-cours p {
+    max-width: 100%;   
+    font-size: 28px;
+}
+.teacher-content {
+    width: auto;
+}
+.container-prog {
+    background-color: #F3F4F7;
+}
+.container-prog h1 {
+    color: black;
+}
+.container-prog p {
+    color: black;
+    font-family: 100;
+}
+.accordion {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: #f7f7f7;
+    border-radius: 5px;
+  }
+  
+  .accordion-item {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .accordion-title {
+    padding: 15px;
+    font-size: 1.25em;
+    cursor: pointer;
+    background: #F3F4F7;
+    position: relative;
+    font-family: Montserrat;
+  }
+  
+  .accordion-title::after {
+    content: "\f078"; /* Unicode for Font Awesome chevron-down */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 10px;
+  }
+  
+  .accordion-title.active::after {
+    content: "\f077"; /* Unicode for Font Awesome chevron-up */
+  }
+  
+  .accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0 15px;
+    background: #F3F4F7;
+    font-family: Montserrat;
+  }
+  
+.accordion-content p {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.accordion-content p::after {
+    content: "";
+    display: block;
+    flex: 0 0 9px;
+    height: 9px;
+    background-color: #6357FF;
+    border-radius: 50%;
+    margin: 8px 16px auto 0;
+  }
+.container-prog p {
+    max-width: 100%;
+}
+.p-notafter::after {
+    opacity: 0;
+    visibility: none;
+
+}
+.p-notafter {
+    margin-left: -23px;
+}
+
+.prog-final {
+    width: 740px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.scroll-fade {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.box-download {
+    max-width: 1240px;
+    height: 200px;
+    background-color: white;
+    padding: 15px 45px;
+}
+.box-download p {
+    font-size: 28px;
+}
+.box-download_button button{
+    width: 183px;
+    height: 48px;
+    align-items: center;
+    text-align: center;
+    background: #6357FF;
+    color: white;
+    border-radius: 4px;
+    margin-top: 48px;
+    margin-bottom: 55px;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: 2px #6357FF solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.box-download {
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+.document {
+    margin-bottom: 55px;
+}
+.teacher-box_text {
+    margin-top: 60px;
+}
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 100px;
+    font-family: montserrat;
+    border-radius: 15px;
+    min-width: 809px;
+    width: 100%;
+  }
+
+.pricing-content {
+    display: flex;
+    flex-direction: row;
+}
+.pricing-title {
+    background-color: #6257ff4a;
+    margin: 0;
+    color: white;
+    padding: 15px;
+    border-radius: 15px 15px 0 0;
+}
+  .pricing-option {
+    background-color: white;
+    padding: 1em;
+    border-radius: 5px;
+    flex: 1;
+    margin: 1em;
+  }
+  
+  .pricing-option h2 {
+    color: black;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    font-size: 15px;
+  }
+  
+  .pricing-option h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    margin-top: 0;
+  }
+  
+  .pricing-option p {
+    color: black;
+    margin-bottom: 1em;
+    margin-top: 0;
+  }
+  
+  .pricing-option ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .pricing-option button {
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pricing-option button:hover {
+    background-color: #0056b3;
+  }
+  
+.src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--root--zW5gk {
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--crossed--o69KZ {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    color: black;
+    font-weight: 500;
+}
+.src-Landings-landing-ui-kit-components-RegistrationCard-components-ProgramPrice--crossed--o69KZ:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid #eb236b;
+    transform: rotate(-5deg);
+}
+.price p {
+    max-width: 100%;
+}
+.price-block_right {
+    margin-left: 35px;
+}
+.span-price {
+    font-size: 28px;
+}
+.register-box {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+    background-color: white;
+    margin-left: 35px;
+    align-items: center;
+    border-radius: 10px;
+}
+.register-content {
+    margin: 1em;
+    padding: 1em;
+    height: auto;
+}
+.register-box p {
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+    margin-top: 0;
+}
+input {
+    padding: 12px 20px;
+    border: 1px solid #cfd4d9;
+    border-radius: 4px;
+    min-width: 332px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 16px 20px;
+    outline: none;
+}
+input:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.219);
+}
+.email, .phone {
+    margin-top: 15px;
+}
+.register-content button {
+    width: 100%;
+    min-width: 374px;
+    height: 48px;
+    align-items: center;
+    text-align: center;
+    background: #6357FF;
+    color: white;
+    border-radius: 4px;
+    margin-top: 15px;
+    font-family: Montserrat;
+    text-decoration: none;
+    border: 2px #6357FF solid;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.accept-rules {
+    margin-top: 15px;
+    font-family: Montserrat;
+}
+.pricing-low {
+    border-bottom: 1px solid black;
+}
+.down-title {
+    background-color: black;
+    margin: 0;
+    color: white;
+    padding: 15px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex-basis: 30%;
+    text-decoration: none;
+}
+.footer-section a {
+    text-decoration: none;
+    color: white;
+}
+.footer_img {
+    margin-top: 25px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px;
+}
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    transition: display 1s ease-in-out;
+}
+  
+#back-to-top-btn:hover {
+    background-color: #333;
+}
+  
+#back-to-top-btn i {
+    font-size: 24px;
+}
+  
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #fff;
+}
+  
+.spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin: -35px 0 0 -35px;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #3498db;
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+
+@media (max-width: 575.98px) {
+    .teacher-box_text {
+      font-size: 16px;
+      line-height: 24px;
+    }
+    
+    .teacher-img {
+      height: 100px;
+    }
+    
+    .container-prog p {
+      font-size: 14px;
+    }
+    
+    .accordion-content p {
+      font-size: 14px;
+    }
+  
+    .box-download p {
+      font-size: 18px;
+    }
+  
+    .pricing-title, .down-title {
+      font-size: 14px;
+    }
+  
+    .register-box p {
+      font-size: 18px;
+    }
+    
+    .pricing-option h2, .pricing-option h3 {
+      font-size: 14px;
+    }
+  
+    .pricing-option p {
+      font-size: 12px;
+    }
+  }
+  /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box-download, .pricing-box, .register-box {
+      padding: 10px;
+      font-size: 14px;
+    }
+    .box-download_button button, .register-content button {
+      width: 100px;
+      height: 30px;
+      font-size: 12px;
+    }
+    .pricing-option button {
+      padding: 5px 10px;
+    }
+    input {
+      min-width: 200px;
+    }
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .box-download, .pricing-box, .register-box {
+      padding: 15px;
+      font-size: 16px;
+    }
+    .box-download_button button, .register-content button {
+      width: 120px;
+      height: 35px;
+      font-size: 14px;
+    }
+    .pricing-option button {
+      padding: 7px 12px;
+    }
+    input {
+      min-width: 250px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .box-download, .pricing-box, .register-box {
+      padding: 20px;
+      font-size: 18px;
+    }
+    .box-download_button button, .register-content button {
+      width: 140px;
+      height: 40px;
+      font-size: 16px;
+    }
+    .pricing-option button {
+      padding: 8px 15px;
+    }
+    input {
+      min-width: 300px;
+    }
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .box-download, .pricing-box, .register-box {
+      padding: 25px;
+      font-size: 20px;
+    }
+    .box-download_button button, .register-content button {
+      width: 160px;
+      height: 45px;
+      font-size: 18px;
+    }
+    .pricing-option button {
+      padding: 10px 18px;
+    }
+    input {
+      min-width: 350px;
+    }
+  }
+  
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (max-width: 1200px) {
+    .box-download, .pricing-box, .register-box {
+      padding: 30px;
+      font-size: 22px;
+    }
+    .box-download_button button, .register-content button {
+      width: 183px;
+      height: 48px;
+      font-size: 20px;
+    }
+    .pricing-option button {
+      padding: 12px 20px;
+    }
+    input {
+      min-width: 332px;
+    }
+  }
+  
